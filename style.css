@@ -1,0 +1,114 @@
+@font-face { font-family: 'Calibri'; src: url('fonts/calibri.eot'); src: url('fonts/calibri.eot?#iefix') format('embedded-opentype'), url('fonts/calibri.svg#Calibri') format('svg'), url('fonts/calibri.woff') format('woff'), url('fonts/calibri.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+
+
+@font-face { font-family: 'Calibri Bold'; src: url('fonts/calibri_bold.eot'); src: url('fonts/calibri_bold.eot?#iefix') format('embedded-opentype'), url('fonts/calibri_bold.svg#Calibri Bold') format('svg'), url('fonts/calibri_bold.woff') format('woff'), url('fonts/calibri_bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('fonts/ostrich/webfonts/ostrich-sans-bold.eot');
+	src: local('☺'), url('fonts/ostrich/webfonts/ostrich-sans-bold.woff') format('woff'), url('fonts/ostrich/webfonts/ostrich-sans-bold.ttf') format('truetype'), url('fonts/ostrich/webfonts/ostrich-sans-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;	
+}
+
+.fb-share-button{
+    padding: 25px 25px;
+    float:left;
+    position:relative;
+    left:45%;
+}
+
+article, section, header, footer, nav {
+
+	position:relative;
+}
+
+header, footer, section, nav{ display:block;}
+
+
+ol, ul, li {list-style:none; margin:0px; padding:0px;}
+
+.navbar-outer {
+  height:50px;
+}
+
+.clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0;	height:0;}
+
+.alignleft {float:left;}
+.alignright {float:right;}
+
+
+body {font-family: 'Calibri'; font-size:14px; color:#012377; overflow-x:hidden; -webkit-overflow-x:hidden; -o-overflow-x:hidden; -ms-overflow-x:hidden; background:#ffffff; background-size:cover;  }
+
+input, textarea, select {outline:none;}
+
+p {margin:0px; padding:0px;}
+
+a {color:#333333; text-decoration:none; outline:none;}
+
+a:hover { color:#333333; text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Calibri'; font-size:14px; color:#012377; font-weight:normal; margin:0px 0px;}
+
+img {border:none; line-height:0px;}
+
+#wrapper { margin:0px; padding:0px; position:relative; width:100%;}
+
+.container {margin:0px auto; padding:0px 0px; position:relative; width:1002px;}
+
+.top-title {margin:45px 0px; padding:0px 0px; position:relative; width:100%; float:left; text-align:center; font-size:50px; font-family: 'Ostrich Sans';font-weight:normal; color:#024a7a; }
+.top-box {margin:0px 48px 0px 0px; padding:20px 10px 10px 10px; position:relative; width:302px; float:left; border:#e8e3e3 solid 1px;}
+.top-box .green-img { margin:0px 0px 0px 0px; padding:0px; position:relative; width:100%; float:left; text-align:center; }
+.top-box .green-img img { width:188px; height:188px;  border-radius:50%; box-shadow:0px 0px 8px 0px #008000; border:#FFF solid 6px; }
+.top-box .red-img { margin:0px 0px 0px 0px; padding:0px; position:relative; width:100%; float:left; text-align:center; }
+.top-box .red-img img { width:188px; height:188px;  border-radius:50%; box-shadow:0px 0px 8px 0px #ff0018; border:#FFF solid 6px; }
+.top-box-last {margin:0px 0px 0px 0px;}
+.top-box h1 { margin:0px 0px 0px 0px; padding:14px 0px; position:relative; width:100%; float:left; text-align:center; border-bottom:#e8e3e3 solid 2px; color:#000000; font-size:24px; }
+.top-box h2 { margin:0px 0px 0px 0px; padding:10px 0px 20px 0px; position:relative; width:100%; float:left; text-align:center;  font-size:24px; text-transform:uppercase; color:#012377; font-family: 'Calibri Bold'; }
+.top-box .like-ctn { margin:0px 0px 22px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left; text-align:center;  font-size:20px; text-transform:uppercase; color:#c3cce2;}
+.top-box .like-ctn .left { float:left; width:auto; }
+.top-box .like-ctn .left img { float:left; width:auto; margin-right:10px; }
+.top-box .like-ctn .right { float:right; width:auto; }
+.top-box .like-ctn .right img { float:right; width:auto; margin-left:10px; }
+.top-box .tag-btn  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.top-box .tag-btn ul  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.top-box .tag-btn ul li  { margin:0px 3px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:90px; float:left; font-size:16px; text-align:center; line-height:35px; color:#ffffff; }
+.top-box .tag-btn ul li a { color:#ffffff; }
+.top-box .tag-btn ul li:last-child  { margin:0px 0px 0px 0px;}
+
+.popup-box  { margin:0px 0px 0px 0px; padding:10px 14px 20px 20px;  width:414px; position:relative; float:left;}
+.popup-box .green-img { margin:0px 0px 15px 0px; padding:0px; position:relative; width:100%; float:left; text-align:center; }
+.popup-box .green-img img { width:150px; height:150px;  border-radius:50%; box-shadow:0px 0px 8px 0px #008000; border:#FFF solid 6px; }
+.popup-box .red-img { margin:0px 0px 15px 0px; padding:0px; position:relative; width:100%; float:left; text-align:center; }
+.popup-box .red-img img { width:150px; height:150px;  border-radius:50%; box-shadow:0px 0px 8px 0px #ff0018; border:#FFF solid 6px; }
+.popup-box .likebtn-ctn { margin:0px 0px 18px 0px; padding:0px; position:relative; width:100%; float:left; text-align:center;}
+.popup-box .likebtn-ctn .like-btn { margin:0px 0px 0px 0px; padding:0px; position:relative; width:30px; height:30px; cursor:pointer; float:left; text-align:center; background:url(images/like-icon.png) no-repeat left top; border:none;}
+.popup-box .likebtn-ctn .unlike-btn { margin:0px 0px 0px 0px; padding:0px; position:relative; width:30px; height:30px; cursor:pointer; float:left; text-align:center; background:url(images/unlike-icon.png) no-repeat left top; border:none;}
+
+.popup-box .likebtn-ctn .like-btn-green { margin:0px 0px 0px 0px; padding:0px; position:relative; width:80px; height:30px; cursor:pointer; float:left; text-align:center; background:url(images/like-icon-green.png) no-repeat left top; border:none;}
+.popup-box .likebtn-ctn .unlike-btn-red { margin:0px 0px 0px 0px; padding:0px; position:relative; width:80px; height:30px; cursor:pointer; float:left; text-align:center; background:url(images/unlike-icon-red.png) no-repeat left top; border:none;}
+
+.popup-box .tag-btn  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.popup-box .tag-btn ul  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.popup-box .tag-btn ul li  { margin:0px 2px 5px 0px; padding:0px 0px 0px 0px; position:relative; width:65px; height:25px; float:left; font-size:12px; text-align:center; line-height:25px; color:#ffffff; }
+.popup-box .tag-btn ul li a { color:#ffffff; }
+
+.popup-box .addtag-ctn  { margin:5px 0px 10px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.popup-box .addtag-ctn input[type=text]  { margin:0px 0px 0px 0px; padding:0px 10px 0px 10px; position:relative; width:90%; float:left; height:30px; border:#dddddd solid 1px; font-size:14px; color:#afadad; font-family: 'Calibri';}
+.popup-box .addtag-ctn input[type=submit]  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:30px; float:left; height:30px; border:#dddddd solid 1px; background:url(images/add-tag-btn.jpg) no-repeat left top; cursor:pointer; }
+
+.popup-box .np-ctn  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left;}
+.popup-box .np-ctn ul  { margin:0px 5px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:185px; float:left;}
+.popup-box .np-ctn ul li  { margin:0px 0px 5px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left; color:#FFF; text-transform:uppercase; font-size:20px; line-height:35px;}
+.popup-box .np-ctn ul li input[type=button]  { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; position:relative; width:100%; float:left; color:#FFF; text-transform:uppercase; font-size:20px; line-height:35px;}
